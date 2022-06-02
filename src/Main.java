@@ -16,9 +16,9 @@ public class Main {
         int bonus = 100;
         int remains = 50;
 
-        boolean hohel = replenishment >= 1000;
+        boolean cost = replenishment > 1000;
 
-        if (hohel){
+        if (cost){
             System.out.println((replenishment/bonus)+remains+replenishment);
         }else {
             System.out.println(replenishment+remains);
