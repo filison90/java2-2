@@ -12,16 +12,16 @@ public class Main {
                 // сценариев рассчитываете сумму бонуса и выводите
                 // на экран.
 
-        int popolnenie = 900;
+        int replenishment  = 900;
         int bonus = 100;
-        int ostatok = 50;
+        int remains = 50;
 
-        boolean hohel = popolnenie >= 1000;
+        boolean hohel = replenishment >= 1000;
 
         if (hohel){
-            System.out.println((popolnenie/bonus)+ostatok+popolnenie);
+            System.out.println((replenishment/bonus)+remains+replenishment);
         }else {
-            System.out.println(popolnenie+ostatok);
+            System.out.println(replenishment+remains);
         }
 
     }
